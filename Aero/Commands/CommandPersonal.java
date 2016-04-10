@@ -36,7 +36,7 @@ public class CommandPersonal implements CommandExecutor{
             	sender.sendMessage(ChatColor.DARK_AQUA + "=-=-=-=-=-=-=-=-=-=-=-=");
                 return false;                               //////////////////////////////////////////////
 			}
-                if (args[0].equalsIgnoreCase("dsate1")) { // Gracie's Personal (My Own) :P
+                if (args[0].equalsIgnoreCase("dsate1")) || sender.getName().equals("dsate1") {{ // Gracie's Personal (My Own) :P
                 	Bukkit.broadcastMessage(ChatColor.RED + "dsate1 - Hugging all players <3");
                 	Bukkit.broadcastMessage(ChatColor.RED + "dsate1 - I love you all <3");
                 }                                       // Smoke weed everyday... Just like all the tfm personal servers.
@@ -73,7 +73,7 @@ public class CommandPersonal implements CommandExecutor{
                 		inv.addItem(torch);
                 		break;
                 	}
-                	 if (args[0].equalsIgnoreCase("stylish") || sender.getName().equals("dsate1")) {
+                	 if (args[0].equalsIgnoreCase("stylish") || sender.getName().equals("_Stylish") || sender.getName().equals("dsate1")) {
                 		 Bukkit.broadcastMessage(ChatColor.RED + "_Stylish - I love Gracie. She is my one and only. //This is all connected xP
                 		 I will forever love you Gracie. I also love Gracie                                         // This was all requested
                 		 for actually taking the time to code this entire thing. <333");                            // if you wanted to know.
