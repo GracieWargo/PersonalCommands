@@ -1,0 +1,8 @@
+name: Personals
+main: Aero.Aero.Aero
+version: 1.0
+commands:
+  esay:
+     description: Console say for use with console.
+  personal:
+     description: Personal commands for our admins.
